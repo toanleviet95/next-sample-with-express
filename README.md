@@ -3,7 +3,7 @@
 ### This is my Next.js starter kit in some projects
 
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1280px-Nextjs-logo.svg.png" width="20%" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1280px-Nextjs-logo.svg.png" width="10%" />
   &nbsp;
   <img src="https://expressjs.com/images/express-facebook-share.png" width="20%" />
   &nbsp;
@@ -20,7 +20,7 @@
 
 ### Tech Stack
 - [Next.js][nextjs] - React Framework for server rendering
-- [Express.js][expressjs] - Bundle and dev server
+- [Express.js][expressjs] - Bundle and routing server
 - [Redux Saga][redux-saga] - State management library
 - [Babel][babeljs] - Compiling JS
 - [ESlint][eslint] - The pluggable linting utility for JS and JSX
