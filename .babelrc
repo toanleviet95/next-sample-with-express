@@ -1,0 +1,43 @@
+{
+  "presets": [
+    "next/babel"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        [
+          "module-resolver", {
+            "alias": {
+              "@": "./"
+            }
+          }
+        ],
+        "@babel/plugin-proposal-class-properties",
+        [
+          "import", {
+            "libraryName": "antd",
+            "style": true
+          }
+        ]
+      ]
+    },
+    "production": {
+      "plugins": [
+        [
+          "module-resolver", {
+            "alias": {
+              "@": "./"
+            }
+          }
+        ],
+        "@babel/plugin-proposal-class-properties",
+        [
+          "import", {
+            "libraryName": "antd",
+            "style": true
+          }
+        ]
+      ]
+    }
+  }
+}
