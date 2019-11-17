@@ -48,8 +48,8 @@ npm start // or yarn start
 [expressjs]: https://expressjs.com
 [redux-saga]: https://redux-saga.js.org
 [babeljs]: https://babeljs.io
-[build-badge]: https://travis-ci.com/toanleviet95/react-sample-with-webpack.svg?branch=master
+[build-badge]: https://travis-ci.com/toanleviet95/next-sample-with-express.svg?branch=master
 [eslint]: https://eslint.org
 [stylelint]: https://stylelint.io
 [travis-ci]: https://travis-ci.org
-[build]: https://travis-ci.com/toanleviet95/react-sample-with-webpack
+[build]: https://travis-ci.com/toanleviet95/next-sample-with-express
