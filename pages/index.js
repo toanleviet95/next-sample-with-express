@@ -21,7 +21,7 @@ Index.getInitialProps = (props) => {
 
   const { jobList } = store.getState();
 
-  if (jobList &&jobList.jobs && jobList.jobs.length === 0) {
+  if (jobList && jobList.jobs && jobList.jobs.length === 0) {
     store.dispatch(loadData());
   }
 
