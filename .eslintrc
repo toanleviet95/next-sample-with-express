@@ -30,6 +30,7 @@
     "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
     "react-hooks/rules-of-hooks": 2,
     "react-hooks/exhaustive-deps": 1,
+    "react/react-in-jsx-scope": 0,
     "comma-dangle": [1, "always-multiline"],
     "eol-last": [2, "always"],
     "import/no-unresolved": [2, { "ignore": ["^@/"] }],

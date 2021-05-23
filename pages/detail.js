@@ -1,4 +1,3 @@
-import React from "react";
 import { connect } from "react-redux";
 import Link from 'next/link';
 import { loadData } from '@/redux/actions/jobDetail';
@@ -7,7 +6,6 @@ const Detail = (props) => {
   const {job: {
     id,
     name,
-    avatar,
     createdAt,
   },
   loading,
@@ -15,7 +13,6 @@ const Detail = (props) => {
 
   return loading ? 'Loading...' : (
     <div style={{ display: 'flex', alignItems: 'center' }}>
-      <img width={50} src={avatar} alt={avatar} />
       <div style={{ margin: '0 8px' }}>
         <div>
           ID:

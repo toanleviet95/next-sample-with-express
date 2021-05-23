@@ -19,7 +19,7 @@
 </div>
 
 ### Tech Stack
-- [Next.js][nextjs] - React Framework for server rendering
+- [Next.js][nextjs] - React Framework for server rendering (version 10)
 - [Express.js][expressjs] - Bundle and routing server
 - [Redux Saga][redux-saga] - State management library
 - [Babel][babeljs] - Compiling JS

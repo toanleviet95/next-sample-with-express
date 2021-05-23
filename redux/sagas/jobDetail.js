@@ -1,10 +1,7 @@
 import { all, put, takeLatest, fork } from 'redux-saga/effects';
-import es6promise from 'es6-promise';
-import 'isomorphic-unfetch';
+import fetch from 'isomorphic-unfetch';
 
 import { actionTypes, loadDataFailure, loadDataSuccess } from '@/redux/actions/jobDetail';
-
-es6promise.polyfill();
 
 function* loadDataSaga ({ params: { jobId } }) {
   try {

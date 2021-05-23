@@ -1,10 +1,9 @@
-import React from "react";
 import { connect } from "react-redux";
 import { loadData } from '@/redux/actions/jobList';
 import JobList from '@/components/JobList';
 
 const Index = (props) => {
-  const { 
+  const {
     jobs,
     loading,
   } = props;
